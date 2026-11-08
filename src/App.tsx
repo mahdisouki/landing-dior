@@ -3,8 +3,9 @@ import cutiesLogo from "./assets/cuties-logo.png";
 import watchGold from "./assets/watch-gold.jpg";
 import watchSilver from "./assets/watch-silver.jpg";
 import watchTwotone from "./assets/watch-twotone.jpg";
-import promoVideo from "./assets/promo-video.mp4";
 
+const PROMO_VIDEO =
+  "https://res.cloudinary.com/dfxeaeebv/video/upload/v1794165539/promo-video_g9odgx.mp4";
 const STOCK = 21;
 const WATCH_PRICE = 59;
 const DELIVERY_PRICE = 7;
@@ -226,7 +227,7 @@ function App() {
           </div>
           <div className="video-frame">
             <video controls playsInline preload="metadata" poster={watchGold}>
-              <source src={promoVideo} type="video/mp4" />
+              <source src={PROMO_VIDEO} type="video/mp4" />
             </video>
             <span className="video-label">Cuties.tn</span>
           </div>
