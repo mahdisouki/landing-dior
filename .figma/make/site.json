@@ -1,0 +1,11 @@
+{
+  "title": "Cuties TN",
+  "description": "Shop a luxury women’s watch in Tunisia, choose a color and quantity, and place a cash-on-delivery order with local delivery.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
