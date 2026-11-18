@@ -154,7 +154,6 @@ function App() {
       });
       if (!response.ok) throw new Error("Submission failed");
 
-      // Meta Pixel placeholder: sends Lead only when the site owner has installed fbq.
       const pixel = (window as Window & { fbq?: (...args: unknown[]) => void }).fbq;
       pixel?.("track", "Lead", { value: total, currency: "TND" });
       setStatus("success");
